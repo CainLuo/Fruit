@@ -14,7 +14,6 @@
 		BFFDC6C42331B3F200F39AAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFFDC6C22331B3F200F39AAE /* LaunchScreen.storyboard */; };
 		BFFDC6CE2331B57200F39AAE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFDC6CD2331B57200F39AAE /* MasterViewController.swift */; };
 		BFFDC6D02331B5BD00F39AAE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFDC6CF2331B5BD00F39AAE /* DetailViewController.swift */; };
-		BFFDC6D22331B60400F39AAE /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFDC6D12331B60400F39AAE /* Fruit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		BFFDC6C52331B3F200F39AAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFFDC6CD2331B57200F39AAE /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		BFFDC6CF2331B5BD00F39AAE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		BFFDC6D12331B60400F39AAE /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +81,6 @@
 				BFFDC6B92331B3F000F39AAE /* SceneDelegate.swift */,
 				BFFDC6CD2331B57200F39AAE /* MasterViewController.swift */,
 				BFFDC6CF2331B5BD00F39AAE /* DetailViewController.swift */,
-				BFFDC6D12331B60400F39AAE /* Fruit.swift */,
 				BFFDC6BD2331B3F000F39AAE /* Main.storyboard */,
 			);
 			path = Module;
@@ -160,7 +157,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFFDC6D22331B60400F39AAE /* Fruit.swift in Sources */,
 				BFFDC6B82331B3F000F39AAE /* AppDelegate.swift in Sources */,
 				BFFDC6BA2331B3F000F39AAE /* SceneDelegate.swift in Sources */,
 				BFFDC6CE2331B57200F39AAE /* MasterViewController.swift in Sources */,
