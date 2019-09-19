@@ -14,18 +14,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard
-          let splitViewController = window?.rootViewController as? UISplitViewController,
-          let leftNavController = splitViewController.viewControllers.first as? UINavigationController,
-          let masterViewController = leftNavController.viewControllers.first as? MasterViewController,
-          let detailViewController = (splitViewController.viewControllers.last as? UINavigationController)?.topViewController as? DetailViewController
-          else { fatalError() }
-
-        let firstMonster = masterViewController.fruits.first
-        detailViewController.furti = firstMonster
-        masterViewController.delegate = detailViewController
-        detailViewController.navigationItem.leftItemsSupplementBackButton = true
-        detailViewController.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
+        // some code
     }
 }
 
